@@ -17,7 +17,7 @@ class ShoppingCartTest {
 		cart.add(new CartItem("TV", 1, 120));
 		assertEquals(cart.totalPrice(), 120);
 
-		cart.add(new CartItem("Chocolate", 2, 2.5));
+		cart.add(new CartItem( "Chocolate", 2, 2.5));
 		assertEquals(cart.totalPrice(), 120 + 2.5 * 2);
 	}
 
